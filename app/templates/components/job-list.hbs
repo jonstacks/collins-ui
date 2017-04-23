@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="header">
+    <h4 class="title">{{title}}</h4>
+  </div>
+  <div class="content">
+    <div class="table-responsive table-full-width">
+      <table class="table">
+        <tbody>
+          {{#each jobs as |job|}}
+            <tr>
+              <td>{{job.name}}</td>
+              <td>{{job.type}}</td>
+              <td>{{job.image}}</td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

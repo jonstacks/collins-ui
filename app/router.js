@@ -7,7 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('results');
+  this.route('jobs');
 });
 
 export default Router;
