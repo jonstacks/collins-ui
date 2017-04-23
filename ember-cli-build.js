@@ -6,6 +6,14 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  app.import('bower_components/animate.css/animate.min.css');
+  app.import('bower_components/bootstrap/dist/css/bootstrap.min.css');
+  app.import('vendor/light-bootstrap-dashboard/css/light-bootstrap-dashboard.css');
+  app.import('vendor/light-bootstrap-dashboard/css/pe-icon-7-stroke.css');
+
+  app.import('bower_components/bootstrap/dist/js/bootstrap.min.js');
+  app.import('vendor/light-bootstrap-dashboard/js/light-bootstrap-dashboard.js');
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
