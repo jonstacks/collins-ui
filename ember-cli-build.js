@@ -14,6 +14,9 @@ module.exports = function(defaults) {
   app.import('bower_components/bootstrap/dist/js/bootstrap.min.js');
   app.import('vendor/light-bootstrap-dashboard/js/light-bootstrap-dashboard.js');
 
+  app.import('vendor/light-bootstrap-dashboard/fonts/Pe-icon-7-stroke.woff', { destDir: 'fonts' });
+
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
