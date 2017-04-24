@@ -1,4 +1,3 @@
-
 module.exports = function(app) {
   app.get('/api/v1/jobs', function(req, res) {
     res.send([
