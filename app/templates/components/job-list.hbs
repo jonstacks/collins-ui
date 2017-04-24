@@ -15,12 +15,12 @@
         </thead>
         <tbody>
           {{#each jobs as |job|}}
-            <tr>
+           {{#link-to "jobs.show" job tagName="tr"}}
               <td>{{job.id}}</td>
               <td>{{job.name}}</td>
               <td>{{job.type}}</td>
               <td>{{job.image}}</td>
-            </tr>
+            {{/link-to}}
           {{/each}}
         </tbody>
       </table>
